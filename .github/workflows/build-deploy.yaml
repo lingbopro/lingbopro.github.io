@@ -36,5 +36,5 @@ jobs:
           with:
             path: ./build
         - name: Deploy to GitHub Pages
-          if: ${{ inputs.deploy }}
+          if: ${{ github.event_name == 'push' || inputs.deploy }}
           uses: actions/deploy-pages@v4

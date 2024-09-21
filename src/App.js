@@ -5,9 +5,9 @@ import './App.css';
 
 class App extends React.Component {
     render() {
-        const { t } = this.props;
+        // const { t } = this.props;
         return (
-            <div className="App">
+            <s-page class="App">
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
                     <p>
@@ -17,7 +17,7 @@ class App extends React.Component {
                         Learn React
                     </a>
                 </header>
-            </div>
+            </s-page>
         );
     }
 }

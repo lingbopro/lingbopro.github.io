@@ -1,0 +1,13 @@
+{
+    "[json]": {
+        "editor.tabSize": 2,
+        "prettier.tabWidth": 2
+    },
+    "[yaml]": {
+        "editor.tabSize": 2,
+        "prettier.tabWidth": 2
+    },
+    "i18n-ally.localesPaths": [
+        "src/locales"
+    ]
+}

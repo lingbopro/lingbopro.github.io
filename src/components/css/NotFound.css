@@ -1,0 +1,17 @@
+.NotFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.NotFound-header {
+    color: var(--s-color-primary);
+    font-size: x-large;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.NotFound-content {
+    color: var(--s-color-secondary);
+    font-size: medium;
+    margin-bottom: 15px;
+}

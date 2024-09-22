@@ -1,0 +1,31 @@
+.App-header {
+    position: -webkit-sticky;
+    position: sticky;
+    padding: 10px;
+    justify-content: space-between;
+    min-height: 30px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-color: var(--s-color-surface);
+    @supports (color: color-mix(in srgb, red 30%, blue 30%)) {
+        /* 强行设置透明度 30% */
+        background-color: color-mix(in hsl, var(--s-color-surface) 30%, var(--s-color-surface) 0%);
+    }
+}
+.App-header,
+.App-header .left,
+.App-header .right,
+.App-header .navButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.App-title {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.App-header .navButtons-desktop a {
+    margin-left: 5px;
+}

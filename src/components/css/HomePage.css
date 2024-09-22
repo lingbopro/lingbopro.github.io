@@ -1,0 +1,72 @@
+.HomePage-top {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 100px 80px;
+    margin-top: -60px;
+    /* background: -webkit-linear-gradient(137deg, #71db99, #8ab9ef, #e594cd);
+    background: linear-gradient(137deg, #71db99, #8ab9ef, #e594cd); */
+    background-image: radial-gradient(
+            at 75.44196638989366% 37.75669237934116%,
+            hsla(142.64150943396226, 59.55056179775281%, 65.09803921568627%, 1) 0%,
+            hsla(142.64150943396226, 59.55056179775281%, 65.09803921568627%, 0) 100%
+        ),
+        radial-gradient(
+            at 85.44809794726088% 87.66775635375161%,
+            hsla(167.99999999999997, 68.30601092896174%, 64.11764705882352%, 1) 0%,
+            hsla(167.99999999999997, 68.30601092896174%, 64.11764705882352%, 0) 100%
+        ),
+        radial-gradient(
+            at 94.7971500773104% 41.38067008058979%,
+            hsla(44.05797101449276, 81.17647058823529%, 50%, 1) 0%,
+            hsla(44.05797101449276, 81.17647058823529%, 50%, 0) 100%
+        ),
+        radial-gradient(
+            at 71.24332837767118% 52.486343388237785%,
+            hsla(308.2352941176471, 71.830985915493%, 86.07843137254902%, 1) 0%,
+            hsla(308.2352941176471, 71.830985915493%, 86.07843137254902%, 0) 100%
+        ),
+        radial-gradient(
+            at 54.70965240435013% 75.36654755206035%,
+            hsla(325.7142857142857, 84.61538461538464%, 82.15686274509804%, 1) 0%,
+            hsla(325.7142857142857, 84.61538461538464%, 82.15686274509804%, 0) 100%
+        ),
+        radial-gradient(
+            at 43.95279909076155% 12.081082519667309%,
+            hsla(142.64150943396226, 59.55056179775281%, 65.09803921568627%, 1) 0%,
+            hsla(142.64150943396226, 59.55056179775281%, 65.09803921568627%, 0) 100%
+        );
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.HomePage-top > * {
+    margin-bottom: 10px;
+}
+.HomePage-title {
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    /* color: var(--s-color-primary); */
+}
+.HomePage-subtitle {
+    font-size: large;
+    font-weight: bold;
+    color: var(--s-color-secondary);
+}
+.HomePage-socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+.HomePage-socials > * {
+    margin: 0 3px;
+}
+.HomePage-socials s-fab {
+    border-radius: 50%;
+}
+.HomePage-socials svg {
+    color: white;
+}

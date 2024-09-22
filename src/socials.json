@@ -1,0 +1,20 @@
+{
+  "github": {
+    "name": "GitHub",
+    "url": "https://github.com/lingbopro",
+    "icon": "github",
+    "color": "black"
+  },
+  "bilibili": {
+    "name": "Bilibili",
+    "url": "https://space.bilibili.com/1886311488",
+    "icon": "bilibili",
+    "color": "#00a1d6"
+  },
+  "mail": {
+    "name": "E-Mail",
+    "url": "mailto:ilovemc@zohomail.cn",
+    "icon": "mail",
+    "color": "#4183c4"
+  }
+}

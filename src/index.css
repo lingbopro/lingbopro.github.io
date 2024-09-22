@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html,
+body,
+#root,
+s-page {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* 测试用 */
+/* s-page {
+  background-image: url(https://7ed.net/bing/api);
+} */
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.link {
+    color: var(--s-color-primary);
+    text-decoration: none;
+    border-bottom: var(--s-color-primary) 2px solid;
 }

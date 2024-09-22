@@ -3,11 +3,10 @@
         "editor.tabSize": 2,
         "prettier.tabWidth": 2
     },
-    "[yaml]": {
+    "[yml]": {
         "editor.tabSize": 2,
         "prettier.tabWidth": 2
     },
-    "i18n-ally.localesPaths": [
-        "src/locales"
-    ]
+    "i18n-ally.localesPaths": ["src/locales"],
+    "i18n-ally.keystyle": "nested"
 }

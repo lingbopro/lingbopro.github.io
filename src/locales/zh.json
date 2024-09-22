@@ -1,1 +1,27 @@
-{}
+{
+  "ui": {
+    "header": {
+      "title": "Lingbo 的主页",
+      "links": {
+        "homepage": "主页",
+        "github": "GitHub"
+      }
+    },
+    "notFound": {
+      "header": "404 Not Found",
+      "content": "看起来这似乎是一个不存在的链接。",
+      "backToHomepage": "返回主页"
+    },
+    "homePage": {
+      "title": "凌玻的主页",
+      "subtitle": "Hello World!"
+    }
+  },
+  "text": {
+    "socials": {
+      "github": "GitHub",
+      "mail": "电子邮箱",
+      "bilibili": "哔哩哔哩"
+    }
+  }
+}

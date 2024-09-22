@@ -1,6 +1,7 @@
 .App-header {
     position: -webkit-sticky;
     position: sticky;
+    top: 0;
     padding: 10px;
     justify-content: space-between;
     min-height: 30px;
@@ -11,6 +12,7 @@
         /* 强行设置透明度 30% */
         background-color: color-mix(in hsl, var(--s-color-surface) 30%, var(--s-color-surface) 0%);
     }
+    z-index: 50;
 }
 .App-header,
 .App-header .left,
